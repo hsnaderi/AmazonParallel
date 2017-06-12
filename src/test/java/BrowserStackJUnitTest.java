@@ -58,6 +58,7 @@ public class BrowserStackJUnitTest {
 
         if(System.getProperty("config") != null) {
             JSONParser parser = new JSONParser();
+            System.out.println("src/test/resources/conf/" + System.getProperty("config"));
             config = (JSONObject) parser.parse(new FileReader("src/test/resources/conf/" + System.getProperty("config")));
             int envs = ((JSONArray)config.get("environments")).size();
 
