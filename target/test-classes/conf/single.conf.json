@@ -1,0 +1,15 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "haroonnaderi1",
+  "key": "D2VVGCgUDXDjmmvT2z6X",
+
+  "capabilities": {
+    "build": "amazon-onboarding-parallel-test",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "safari"
+  }]
+}
